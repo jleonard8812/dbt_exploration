@@ -1,0 +1,33 @@
+[0m08:07:39.282616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1132bcc10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x112ff1c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1132e8290>]}
+
+
+============================== 08:07:39.289539 | 8c638d49-8b6c-4ae9-ad24-25ce1450b37c ==============================
+[0m08:07:39.289539 [info ] [MainThread]: Running with dbt=1.7.7
+[0m08:07:39.290263 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'profiles_dir': '/Users/lilrawj/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init dbt_practice', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m08:07:39.290935 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/Users/lilrawj/.dbt')}
+[0m08:07:39.291380 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m08:07:39.292542 [debug] [MainThread]: Starter project path: /Users/lilrawj/Desktop/Dbt/dbtenv/lib/python3.11/site-packages/dbt/include/starter_project
+[0m08:07:39.298820 [info ] [MainThread]: 
+Your new dbt project "dbt_practice" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m08:07:39.299406 [info ] [MainThread]: Setting up your profile.
+[0m08:07:39.304778 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m08:07:39.310010 [debug] [MainThread]: Resource report: {"command_name": "init", "command_wall_clock_time": 0.0502901, "process_user_time": 1.943953, "process_kernel_time": 0.271887, "process_mem_max_rss": "107995136", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m08:07:39.311294 [debug] [MainThread]: Command `dbt init` failed at 08:07:39.310978 after 0.05 seconds
+[0m08:07:39.312056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1132d6450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11364d8d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x11364e4d0>]}
+[0m08:07:39.312804 [debug] [MainThread]: Flushing usage events
